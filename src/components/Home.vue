@@ -11,7 +11,7 @@
         <h2>{{workshop.title}}</h2>
         <h3 v-if="workshop.authors">by {{workshop.authors}}</h3>
         <p>{{workshop.blurb}}</p>
-        <div class="button" v-if="workshop.blurb">Let's Go!</div>
+        <div class="button" v-if="workshop.blurb" @click="goToWorkshop(workshop.link)">Let's Go!</div>
       </div>
     </div>
   </div>
@@ -27,11 +27,29 @@ export default {
           title: "GraphQL + Serverless Workshop",
           authors: "Chris Noring and Jen Looper",
           blurb:
-            "Explore the GraphQL API, Learn about Dockerized Microservices, and Build a Serverless Function"
+            "Explore the GraphQL API, Learn about Dockerized Microservices, and Build a Serverless Function",
+          link: "https://graphql-serverless-workshop.azurewebsites.net/"
         },
-        { title: "More coming soon!" }
+        {
+          title: "Step by Step Express Workshop",
+          authors: "Tierney Cyren",
+          blurb: "Step-by-step, learn the process of building an Express app",
+          link: "https://github.com/bnb/step-by-step-express-workshop"
+        },
+        {
+          title: "Vue.js Workshops (Portuguese)",
+          authors: "Glaucia Lemos",
+          blurb:
+            "Series of three workshops teaching beginning, intermediate, and advanced Vue.js concepts",
+          link: "https://github.com/glaucia86/vuejs-workshop"
+        }
       ]
     };
+  },
+  methods: {
+    goToWorkshop(link) {
+      window.open(link);
+    }
   }
 };
 </script>
@@ -60,6 +78,7 @@ header {
   padding: 15px;
   width: 100px;
   margin: auto;
+  cursor: pointer;
 }
 .card {
   background-color: #3e92cc;
