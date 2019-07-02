@@ -4,7 +4,7 @@
 
     <h1 class="headline">How Do I Even Dev?</h1>
 
-    <img src="../assets/bit.png" width="300px">
+    <img src="../assets/bit.png" width="300px" />
 
     <div class="container">
       <div v-for="workshop in workshops" :key="workshop.text" class="card">
@@ -42,6 +42,13 @@ export default {
           blurb:
             "Series of three workshops teaching beginning, intermediate, and advanced Vue.js concepts",
           link: "https://github.com/glaucia86/vuejs-workshop"
+        },
+        {
+          title: "Not A Dog Cognitive Services Web Workshop",
+          authors: "Frank Boucher",
+          blurb:
+            "During this workshop you will deploy a web application able to detect when an image is or is not a dog, using Cognitive Services.",
+          link: "https://github.com/FBoucher/Not-a-Dog-Workshop"
         }
       ]
     };
