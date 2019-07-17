@@ -7,11 +7,15 @@
     <img src="../assets/bit.png" width="300px" />
 
     <div class="container">
-      <div v-for="workshop in workshops" :key="workshop.text" class="card">
+      <div
+        @click="goToWorkshop(workshop.link)"
+        v-for="workshop in workshops"
+        :key="workshop.text"
+        class="card"
+      >
         <h2>{{workshop.title}}</h2>
         <h3 v-if="workshop.authors">by {{workshop.authors}}</h3>
         <p>{{workshop.blurb}}</p>
-        <div class="button" v-if="workshop.blurb" @click="goToWorkshop(workshop.link)">Let's Go!</div>
       </div>
     </div>
   </div>
@@ -49,6 +53,19 @@ export default {
           blurb:
             "During this workshop you will deploy a web application able to detect when an image is or is not a dog, using Cognitive Services.",
           link: "https://github.com/FBoucher/Not-a-Dog-Workshop"
+        },
+        {
+          title: "Fake Call Workshop with Azure and Twilio",
+          authors: "Chloe Condon",
+          blurb:
+            "A workshop to build your own fake boyfriend/boss/sibling/co-worker call with Azure & Twilio ",
+          link: "https://github.com/ChloeCodesThings/FakeCallWorkshop"
+        },
+        {
+          title: "MxChip IoT Workshop (French)",
+          authors: "Wassim Chegham",
+          blurb: "Code your first IoT project on Azure",
+          link: "https://github.com/manekinekko/MXChip-Workshop"
         }
       ]
     };
@@ -77,21 +94,13 @@ header {
   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
   grid-gap: 10px;
 }
-.button {
-  border-radius: 5px;
-  color: #fffaff;
-  background-color: #d8315b;
-  margin: 10px;
-  padding: 15px;
-  width: 100px;
-  margin: auto;
-  cursor: pointer;
-}
+
 .card {
   background-color: #3e92cc;
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
+  cursor: pointer;
 }
 </style>
 
