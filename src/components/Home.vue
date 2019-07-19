@@ -66,6 +66,12 @@ export default {
           authors: "Wassim Chegham",
           blurb: "Code your first IoT project on Azure",
           link: "https://github.com/manekinekko/MXChip-Workshop"
+        },
+        {
+          title: "Apollo GraphQL Mini Workshop",
+          authors: "Brandon Minnick",
+          blurb: "Convert an e-commerce application to GraphQL in this workshop",
+          link: "https://www.codetraveler.io/apollographqlworkshop/"
         }
       ]
     };
