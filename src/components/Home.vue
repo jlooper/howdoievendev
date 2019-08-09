@@ -20,7 +20,7 @@
         <p>{{workshop.blurb}}</p>
       </div>
     </div>
-    <footer>✅ = Already tested in a workshop</footer>
+    <footer>✅ = Already tested in a workshop venue</footer>
   </div>
 </template>
 
@@ -92,20 +92,20 @@ export default {
           language: "🇺🇸"
         },
         {
-          title: "Web Apps with Visual Studio Code and Azure",
-          authors: "Nina Zakharenko",
-          blurb:
-            "Introduction to Building Scalable Web Apps with Visual Studio Code and Azure",
-          link: "https://pycon2019.azurefd.net/",
-          ready: true,
-          language: "🇺🇸"
-        },
-        {
           title: "Learn Python",
           authors: "Nina Zakharenko",
           blurb:
             "Introductory and Intermediate Python, recorded for Frontend Masters.",
           link: "https://www.learnpython.dev/",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
+          title: "Azure Kubernetes Workshop",
+          authors: "Several authors",
+          blurb:
+            "Master the basic and more advanced topics required to deploy a multi-container application to Kubernetes on Azure Kubernetes Service (AKS)",
+          link: "https://aksworkshop.io/",
           ready: true,
           language: "🇺🇸"
         },
