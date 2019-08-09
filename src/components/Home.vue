@@ -83,6 +83,33 @@ export default {
           language: "🇺🇸"
         },
         {
+          title: "Web Apps with Visual Studio Code and Azure",
+          authors: "Nina Zakharenko",
+          blurb:
+            "Introduction to Building Scalable Web Apps with Visual Studio Code and Azure",
+          link: "https://pycon2019.azurefd.net/",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
+          title: "Web Apps with Visual Studio Code and Azure",
+          authors: "Nina Zakharenko",
+          blurb:
+            "Introduction to Building Scalable Web Apps with Visual Studio Code and Azure",
+          link: "https://pycon2019.azurefd.net/",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
+          title: "Learn Python",
+          authors: "Nina Zakharenko",
+          blurb:
+            "Introductory and Intermediate Python, recorded for Frontend Masters.",
+          link: "https://www.learnpython.dev/",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
           title: "GraphQL + Serverless Workshop",
           authors: "Chris Noring and Jen Looper",
           blurb:
