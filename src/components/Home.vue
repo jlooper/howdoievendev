@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <header>Azure workshops built with 😍 by the Cloud Advocacy Team</header>
+    <header>Azure workshops built and contributed to with 😍 by the Cloud Advocacy Team</header>
 
     <h1 class="headline">How Do I Even Dev?</h1>
 
@@ -106,6 +106,14 @@ export default {
           blurb:
             "Master the basic and more advanced topics required to deploy a multi-container application to Kubernetes on Azure Kubernetes Service (AKS)",
           link: "https://aksworkshop.io/",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
+          title: "Kubernetes 201 Production tooling",
+          authors: "Several authors",
+          blurb: "Master Kubernetes with this in-depth workshop",
+          link: "https://oscon2019.container.training/",
           ready: true,
           language: "🇺🇸"
         },
