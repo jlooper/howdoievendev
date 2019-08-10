@@ -118,6 +118,30 @@ export default {
           language: "🇺🇸"
         },
         {
+          title: "MXChip Workshop",
+          authors: "Jim Bennett",
+          blurb: "A hands-on workshop to get started with an MXChip board",
+          link: "https://github.com/jimbobbennett/MXChip-Workshop",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
+          title: "Attendee Detector Workshop",
+          authors: "Jim Bennett",
+          blurb: "A Python and Azure workshop to look for faces in photos",
+          link: "https://github.com/jimbobbennett/AttendeeDetectorWorkshop",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
+          title: "Xamarin Workshop",
+          authors: "Jim Bennett",
+          blurb: "Workshop for building an Azure powered Xamarin mobile app",
+          link: "https://github.com/jimbobbennett/MobileAppsOfTomorrow-Lab",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
           title: "GraphQL + Serverless Workshop",
           authors: "Chris Noring and Jen Looper",
           blurb:
