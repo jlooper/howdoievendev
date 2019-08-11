@@ -67,7 +67,7 @@ export default {
         },
         {
           title: "MxChip IoT Workshop",
-          authors: "Wassim Chegham",
+          authors: "Several authors",
           blurb: "Code your first IoT project on Azure",
           link: "https://github.com/manekinekko/MXChip-Workshop",
           ready: true,
