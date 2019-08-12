@@ -142,6 +142,14 @@ export default {
           language: "🇺🇸"
         },
         {
+          title: "Kubernetes Workshop",
+          authors: "Scott Coulton",
+          blurb: "Workshop for learning about Kubernetes Containers",
+          link: "https://github.com/scotty-c/kubernetes-on-azure-workshop",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
           title: "GraphQL + Serverless Workshop",
           authors: "Chris Noring and Jen Looper",
           blurb:
