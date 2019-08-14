@@ -20,7 +20,10 @@
         <p>{{workshop.blurb}}</p>
       </div>
     </div>
-    <footer>🚧 = Not yet tested in a live venue. Testers welcome! Have a workshop to add? PR the [repo](https://github.com/jlooper/howdoievendev)!</footer>
+    <footer>
+      🚧 = Not yet tested in a live venue. Testers welcome! Have a workshop to add? PR the
+      <a href="https://github.com/jlooper/howdoievendev">repo</a>
+    </footer>
   </div>
 </template>
 
