@@ -13,14 +13,14 @@
         :key="workshop.text"
         class="card"
       >
-        <p style="text-align:left" v-if="workshop.ready">✅</p>
+        <p style="text-align:left" v-if="!workshop.ready">🚧</p>
         <h2>{{workshop.title}}</h2>
         <p>{{workshop.language}}</p>
         <h3 v-if="workshop.authors">by {{workshop.authors}}</h3>
         <p>{{workshop.blurb}}</p>
       </div>
     </div>
-    <footer>✅ = Already tested in a workshop venue</footer>
+    <footer>🚧 = Not yet tested in a live venue. Testers welcome! Have a workshop to add? PR the [repo](https://github.com/jlooper/howdoievendev)!</footer>
   </div>
 </template>
 
