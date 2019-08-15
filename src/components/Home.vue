@@ -153,6 +153,14 @@ export default {
           language: "🇺🇸"
         },
         {
+          title: "VS Code Can Do That Workshop",
+          authors: "Burke Holland",
+          blurb: "Exercises linked to a Frontend Masters workshop on VS Code",
+          link: "https://burkeholland.gitbook.io/vs-code-can-do-that/",
+          ready: true,
+          language: "🇺🇸"
+        },
+        {
           title: "GraphQL + Serverless Workshop",
           authors: "Chris Noring and Jen Looper",
           blurb:
