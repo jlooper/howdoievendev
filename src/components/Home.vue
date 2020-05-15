@@ -22,7 +22,9 @@
     </div>
     <footer>
       🚧 = Not yet tested in a live venue. Testers welcome! Have a workshop to add? PR the
-      <a href="https://github.com/jlooper/howdoievendev">repo</a>
+      <a
+        href="https://github.com/jlooper/howdoievendev"
+      >repo</a>
     </footer>
   </div>
 </template>
@@ -162,11 +164,11 @@ export default {
         },
         {
           title: "GraphQL + Serverless Workshop",
-          authors: "Chris Noring and Jen Looper",
+          authors: "Chris Noring",
           blurb:
             "Explore the GraphQL API, Learn about Dockerized Microservices, and Build a Serverless Function",
-          link: "https://graphql-serverless-workshop.azurewebsites.net/",
-          ready: false,
+          link: "http://aka.ms/graphql-workshop",
+          ready: true,
           language: "🇺🇸"
         }
       ]
